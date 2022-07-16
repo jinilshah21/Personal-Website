@@ -1,0 +1,271 @@
+body{
+    margin : 0pc 0pc 0pc 0pc ;
+}
+.landingpage{
+    background-color: #2C3639;
+    margin: 0px auto 0px auto ;
+    color:white;
+    padding-top:80px;
+    text-align: center;
+    padding-bottom: 0%;
+    align-items: center;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 2;
+    background-color: #2C3639;
+    width:100%;
+    justify-content: end;
+    height:80px;
+    padding-bottom: 10px;
+    margin-top: -80px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:rgb(20, 32, 43);
+    text-decoration: none;
+    
+}
+.h2heading{
+    margin: 20px 25px 0px 25px;
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    position: relative;
+    right:50px;
+    
+}
+.profilepic{
+    height : 70px;
+    background-color: #ffd970;
+    border-radius: 100%;
+    position: relative;
+    margin-right: 60%;
+    margin-top:20px
+}
+.name{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 4.5em;
+    font-family: sans-serif;
+    
+}
+.profession{
+   font-size:1.5em;
+   font-family: serif;
+   margin-top: 0px;
+   
+
+}
+#clouds1{
+    display:block;
+    width:200px;
+    height:150px;
+    margin:0px 180px 0px auto;
+    position: relative;
+    bottom:150px;
+}
+#clouds2{
+    display:block;
+    width:200px;
+    height:150px;
+    margin:0px 0px 0px 150px;
+    position: absolute;
+    bottom:220px;
+}
+.btcwallet{
+    
+    display:inline-block;
+    align-items: center;
+    width:500px;
+    position:relative;
+    bottom:90px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#solanaimage{
+    display:inline-block;
+    width:130px;
+    position:relative;
+    
+}
+#maticimage{
+    display:inline-block;
+    width:130px;
+    position:relative;
+   
+}
+#ethimage{
+    display:inline-block;
+    width:130px;
+    position:relative;
+    border-radius: 100%;
+    border-radius: 100%;
+    
+}
+#codeimage{
+    display:inline-block;
+    width:130px;
+    position:relative;
+    
+}
+#binanceimage{
+    display:inline-block;
+    width:130px;
+    position:relative;
+}
+#reactimage{
+    display:inline-block;
+    width:110px;
+    position:relative;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+#tetherimage{
+    display:inline-block;
+    width:130px;
+    position:relative;
+}
+#jsimage{
+    display:inline-block;
+    width:115px;
+    position:relative;
+    border-radius: 100%;
+    margin: 0px 0px 10px 0px;
+}
+#cssimage{
+    display:inline-block;
+    width:115px;
+    position:relative;
+    margin: 0px 6px 10px 6px;
+}
+#htmlimage{
+    display:inline-block;
+    width:115px;
+    position:relative;
+    margin: 0px 6px 10px 0px;
+}
+
+.pic{
+    height : 80px;
+    background-color: #ffd970;
+    border-radius: 100%;
+    position: relative;
+    margin: 100px auto 0px auto;
+}
+
+.centrepart{
+    background-color:#3F4E4F ;
+    margin-top:-30px;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 250px;
+}
+.h2secondarypage{
+    font-size: 3rem;
+    color:#151c1f
+}
+.aboutme{
+    text-align:center;
+    font-size: 1.5rem;
+    width:38%;
+    font-family: serif;
+}
+.bottompart{
+    background-color: #A27B5C;
+    margin-top:-20px;
+    font-family: sans-serif;
+}
+.bottomparth2{
+    font-family: sans-serif;
+    font-size: 3rem;
+    margin-top: 0px;
+    position: relative;
+    top:100px;
+    text-align: center;
+    color: rgb(100, 46, 2);
+    padding-bottom: 40px;
+}
+.lastpart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #DCD7C9;
+    margin-top: -30px;
+    padding-bottom: 20%;
+}
+.lastparth2{
+    font-size: 3rem;
+    position: relative;
+    top:120px;
+    color:#977549
+}
+.lastparth3{
+    font-size: 2rem;
+    position: relative;
+    top:100px;
+    color:#aa7b55;
+}
+.lastpartcontent{
+    font-size: 1.5rem;
+    width:50%;
+    text-align: center;
+    position: relative;
+    top:100px;
+    font-family: serif;
+}
+.button{
+    font-size: 2rem;
+    border-radius: 10px;
+    width:25%;
+    position: relative;
+    top:150px;
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #455053;
+    border:none;
+
+}
+.mailicon{
+    height:50px;
+    position: relative;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-around;
+    margin:0px auto 0px auto;
+}
+.h3footer{
+    font-size: 1.5rem;
+    font-family: serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color:#886243
+}
+.profileicon{
+    height:60px;
+}
+
